@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro projeto desafio</title>
+</head>
+<body>
+    <h2>A empresa</h2>
+        <p>Usando a TAG (h2) para os títulos, a TAG (p) para os parágrafos e a TAG (hr) para linha separação.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum consequat pellentesque.</p>
+    <hr>
+
+    <h2>Vantagens de ser cliente:</h2>
+        <p>Usando LISTA ORDENADA COM NUMERAIS</p>
+        <ol type= "1">
+            <li>Atendimento <strong>rápido</strong></li>
+            <li>Preçõs especiais</li>
+            <li>Muitas cidades</li>
+        </ol>
+    <hr>
+
+    <h2>O que os clientes estão dizendo:</h2>
+        <P>Usando a TAG (em) para deixar o texto em ITÁLICO e a TAG (br) para quebra de linha</P>
+        <em>"Gostei demais do atendimento, foi muito rápido e com certeza irei vltar"</em><br>
+        <p>Usando a TAG (strong) para deixar negrito o nome</p>
+        <strong>Emanoel Silva</strong>
+    <hr>
+
+    <h2>Mapa do site</h2>
+        <p>Usando LISTA NÃO ORDENADA COM CÍRCULO</p>
+        <ul type= "circle">
+            <li>Home</li>
+            <li>Quem somos</li>
+            <li>Contato</li>
+        </ul>
+    <hr>
+
+    <h2>Ferrari</h2>
+        <P>Usando a TAG (img) para adcionar imagem</P>
+        <img src="Assets/ferrari.jpg" width="600">
+    <hr>
+
+    <h2>Link para recarregar a página</h2>
+        <p>Usando a TAG (a href "" aspas vazias para carregar a mesma página</p>
+        <a href=""> <!--Este link direciona para o próprio site na página-->
+        Clique aqui para carregar a própria página.
+        </a>
+    <hr>
+
+
+    <h2>Link para recarregar uma página do mesmo site</h2>
+        <p>Usando a TAG (a href "direcionar link da própria página" aspas preenchidas com um endereço do mesmo site</p>
+        <a href="projeto.html"> <!--Este link direciona para o próprio site na página-->
+        Clique aqui para outra página do prório site.
+        </a>
+    <hr>
+
+    <h2>Página principal</h2>
+        <p>Esta é uma página interna do próprio site.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum consequat pellentesque. Duis eget odio placerat, semper metus convallis, aliquet lectus.</p>
+    <hr>
+
+    <h2>Link para recarregar uma página externa do site</h2>
+        <p>Usando a TAG (a href "direcionar link para página de outro site externo" aspas preenchidas com um endereço de site externo</p>
+        <a href="http://www.google.com.br">
+        clique aqui para outro site externo na mesma raiz.
+        </a>    
+    <hr>
+
+    <h2>Link para recarregar uma página externa do site</h2>
+        <p>Usando a TAG (a target="blank" href=" direcionar link para página de outro site externo em OUTRA ABA DO NAVEGADOR" aspas preenchidas com um endereço de site externo</p>
+        <a target="blank" href="http://www.google.com.br">
+        clique aqui para outro site externo na mesma raiz.
+        </a>
+    <hr>
+        <h2>Como fazer tabelas no site</h2>
+    <table border="2" width="50%"> <P>Usado a TAG table para criar uma tabela (table border=""2px), se usar width em 100% ela irá ocupar sempre todo espaço</P> <br>
+        
+        <tr> Usado TAG (tr) para colocar a TAG para inserir dados na tabela e significa LINHA DA TABELA.
+            <h2>Produtos na tabela</h2>
+            <p>Usar a TAG (th) que significa table header cabeçalho da tabela e que fica centralizado e em negrito os nomes do cabeçalho</p>
+            <th>Código</th><!--Usado a TAG para inserir os dados na     tabela que significa table.-->   
+            <th>Produto</th>
+            <th>Preço</th>
+        <tr>
+            <td>01</td>
+            <td>Notebook</td>
+            <td>R$ 1.500,99</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Tablet</td>
+            <td>R$ 999,99</td>   
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="2">Cupom 1 -R$ 10,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cupom 2 -R$ 12,00</td>
+        </tr>        
+        <p>a TAG (colspan)  usada na TAG (td) significa a extensão da coluna.</p>
+        <tr>
+            <td>Total:</td>
+            <td colspan="2">R$ 3.478,98</td>
+        </tr>
+        
+
+        </table>
+        <td> <a href="">click aqui</a> </td>
+        <p>Podemos colocar links também dentro da tabela</p>
+        <img src="Assets/ferrari.jpg"= width="100%" alt="">
+        <p>Podemos colocar imagens também dentro da tabela
+            <p>
+        <hr>
+
+            <h2>Formulários</h2>
+            <h2>Login</h2>
+            <form>
+                Login:<br>
+                <input type="text" name="login"><br>
+                Senha:<br> 
+                <input type="password" name="senha"><br> 
+                <input type="submit" value="Logar">
+
+                <p>Criar a caixa de login</p>
+                <p>Criar a caixa da senha - (password) significa que a senha ficará oculta</p>
+                <p>Criar um botão Logar (submit) que quer dizer enviar</p>
+            </form>
+            <hr>
+
+            <h2>Mais sobre formulários</h2>
+            <h2>Cadastre-se</h2>
+            <form>
+            Login:<br>
+            <input type="text" name="login:"> <br>
+
+            Sexo: <br>
+
+            <input type="radio" name="sexo"> Masculino<br>
+            <input type="radio" name="sexo"> Feminino<br>
+            <input type="radio" name="sexo"> Não informar<br>
+            <P>O input type= "radio" é o círculo para selecionamento e name "sexo" irá marcar apenas um círculo</P>
+            <hr>
+            <input type="radio" name="sexo" value="M"> Masculino<br>
+            <input type="radio" name="sexo" value="F"> Feminino<br>
+            <input type="radio" name="sexo" value="N I"> Não informar<br>
+            <P>O input type= "radio" é o círculo para selecionamento e name "sexo", pode também colocar a atributo (value "Com a abreviasção do nome") e irá marcar apenas um círculo</P>
+            <hr>
+
+            Interresses<br>
+            <input type="checkbox" name="interesses"> Futebol<br>
+            <input type="checkbox" name="interesses"> Cursos<br>
+            <input type="checkbox" name="interesses"> Modas<br>
+            <P>O input type= "checkbox" é um quadrado para selecionamento um ou mais opções "interesses".</P>
+            <hr>
+
+            Estado<br>
+            <select name="estado">
+                <option value="sp">SP</option>
+                <option value="mg">MG</option>
+                <option value="rj">RJ</option>
+                <option value="rs">RS</option>
+            </select>
+            <P>O select name= "estado" é uma seleção para escolha na caixinha pra escolher de um Estado.</P><br><br>
+        
+            Observações: <br>
+            <textarea></textarea><br>
+
+            <input type="submit" value="Cadastrar">
+            <p>A TAG (textarea) é a tag de uma caixa de texto que vai crescendo com barra de rolagem conforme a pessoa vai digitando</p>
+    </form>
+    <hr>
+
+        <h2>Caracteres especiais</h2>
+        <a target href="https://www.w3schools.com/html/html_entities.asp">https://www.w3schools.com/html/html_entities.asp</a><br><br>
+        <p>Para usar espaçamento & nbsp ; ou este & #160 ; porém não é reconmendável o uso destas entidades que se encontra no site: w3schools</p>
+        Home - quem somos - contato
+        <hr>
+
+       <h2>Adcionando link para WORD docx e ou BLOCO DE NOTA txt </h2> 
+    <a href="html - Primeiro projeto desafio.docx"> html - Primeiro projeto desafio.docx</a><br>
+    <a href="Primeiro projeto desafio.txt">Primeiro projeto desafio.txt</a>
+    
+</body>
+</html>
